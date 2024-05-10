@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 64px;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.tasksCreated {
+  color: var(--color-blue);
+}
+
+.tasksDone {
+  color: var(--color-purple);
+}
+
+.tasksCreated,
+.tasksDone {
+  font-weight: bold;
+  font-size: var(--font-size-big);
+}
+
+.badge {
+  font-size: var(--font-size-normal);
+  font-weight: bold;
+  color: var(--color-gray-200);
+  background: var(--color-gray-400);
+  padding: 8px;
+  border-radius: 15px;
+}
