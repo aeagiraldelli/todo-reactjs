@@ -8,7 +8,11 @@ export function App() {
     <>
       <Header />
       <div className={styles.app}>
-        <InputBar placeholder='Adicione uma nova tarefa' />
+        <InputBar
+          placeholder='Adicione uma nova tarefa'
+          required
+          minLength={3}
+        />
       </div>
     </>
   )

@@ -1,4 +1,5 @@
-import { RocketLaunch } from '@phosphor-icons/react'
+import { NotePencil } from '@phosphor-icons/react'
+
 import styles from './Header.module.css'
 
 export function Header() {
@@ -7,7 +8,7 @@ export function Header() {
       <div className={styles.header}>
         <div className={styles.content}>
           {/* <img src={rocketPng} /> */}
-          <RocketLaunch size={50} />
+          <NotePencil size={50} />
           <span className={styles.contentBody}>
             <span className={styles.to}>to</span><span className={styles.do}>do</span>
           </span>
