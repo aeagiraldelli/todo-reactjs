@@ -6,7 +6,11 @@ export interface Task {
   isDone: boolean;
 }
 
-export function TaskItem() {
+interface TaskItemProps {
+  task: Task
+}
+
+export function TaskItem({ task }: TaskItemProps) {
   return (
     <></>
   )
