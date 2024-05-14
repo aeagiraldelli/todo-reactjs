@@ -1,6 +1,5 @@
 import { Trash } from '@phosphor-icons/react';
 import styles from './TaskItem.module.css'
-import { InputHTMLAttributes } from 'react';
 
 export interface Task {
   id: number;
